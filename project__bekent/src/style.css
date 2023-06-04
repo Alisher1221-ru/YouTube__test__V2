@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    background-color: #f5f5f5;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+
+
+/* //////select////// */
+
+
+.Shors__video{
+    width: 12%;
+    /* height: 93vh; */
+    bottom: 0;
+    z-index: 2;
+    overflow-y: hidden;
+    padding: 0 10px 0 15px;
+    transition: all 0.2s ease;
+    position: fixed;
+    top: 71px;
+}
+.Burgers{
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0); 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(104, 104, 104, 0.733); 
+    border-radius: 5px;
+}
+section:hover{
+    overflow-y:auto;
+}
+.CartImg{
+    padding: 8px;
+}
+.CartP{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.selectP{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 0 7px 10px;
+}
+.p_text{
+    font-size: 16px;
+    padding: 0 0 0 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(87, 87, 87);
+}
+.text__rec{
+    font-size: 13px;
+    padding: 15px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(151, 151, 151);
+}
+
+
+/* /////////header/////// */
+
+
+
+header{
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px 0 0;
+    position: fixed;
+    top: 0;
+    background-color:#ffffff;
+    z-index: 2;
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger__manu{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: all 0.1s ease-in;
+}
+
+
+.menu__Burger{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.burger__manu:hover{
+    background-color: #e6e6e6;
+}
+.linia__burger_1{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 12px;
+}
+.linia__burger_2{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 19px;
+}
+.youtube{
+    cursor: pointer;
+}
+.linia__burger_3{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 26px;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0;
+}
+.menu__search{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.menu__search input{
+    height: 100%;
+    width: 90%;
+    padding: 0 0 0 20px;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.img__micra{
+    padding: 9px;
+    border-radius: 50%;
+    transition: all 0.1s ease;
+}
+.img__micra:hover{
+    background-color: rgb(224, 222, 222);
+}
+.menu__search >div{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(155, 153, 153);
+    background-color: rgb(230, 228, 228);
+    height: 100%;
+    padding: 0 5px 0 0;
+    cursor: pointer;
+}
+.menu__search >div:hover{
+    background-color: rgb(218, 218, 218);
+}
+.icons{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons img{
+    padding: 9px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+.icons img:hover{
+    background-color: rgb(211, 209, 209);
+}
+
+
+
+/* ///////// main /////// */
+
+
+
+.blok_nav{
+    position: fixed;
+    top: 60px;
+    z-index: 3;
+}
+.item__mini{
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: rgb(230, 229, 229);
+    color: #141414;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin: 0 10px 0;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.item__mini:hover{
+    background-color: rgb(201, 197, 197);
+}
+
+
+
+
+/* ////// videos ///// */
+
+
+
+
+.img__youtebe{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+
+.img__youtebe_1{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+.Like{
+    transform: rotate(180deg);
+}
